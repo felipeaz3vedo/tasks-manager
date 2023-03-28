@@ -3,6 +3,11 @@
     "browser": true,
     "es2021": true
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -18,10 +23,10 @@
     "sourceType": "module"
   },
   "plugins": [
-  "react", 
-  "@typescript-eslint", 
-  "react-hooks", 
-  "eslint-plugin-import-helpers", 
+  "react",
+  "@typescript-eslint",
+  "react-hooks",
+  "eslint-plugin-import-helpers",
   "prettier"
   ],
   "rules": {
@@ -39,7 +44,7 @@
           "newlinesBetween": "always",
           "groups": [
             "/^react/",
-            "/components/", 
+            "/components/",
             "module",
             "/^@shared/",
             "/absolute/",
