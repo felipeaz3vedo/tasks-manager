@@ -10,13 +10,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Inter', sans-serif;
     background: ${({ theme }) => theme.colors['background-color']};
+    font-family: 'Inter', sans-serif;
     color: white;
     -webkit-font-smoothing: antialiased;
   }
 
-  a, button {
+  a, button, li {
     border: none;
     cursor: pointer;
   }
