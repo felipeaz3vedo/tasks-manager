@@ -11,7 +11,7 @@ import * as S from './style';
 
 export function Sidebar() {
   return (
-    <S.Container>
+    <S.Sidebar>
       <S.NavList>
         <S.NavItem>
           <HouseSimpleIcon size={32} />
@@ -37,6 +37,6 @@ export function Sidebar() {
       <S.SignOut>
         <SignOutIcon size={32} />
       </S.SignOut>
-    </S.Container>
+    </S.Sidebar>
   );
 }
