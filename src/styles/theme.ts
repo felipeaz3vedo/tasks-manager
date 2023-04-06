@@ -4,7 +4,7 @@ export const theme = {
     'task-card-color': '#1E203B',
     'task-card-hover-color': '#333557',
     'low-color': '#39EF3680',
-    'medium-color': '#6E363080',
+    'medium-color': '#89632A80',
     'hard-color': '#FF101080',
     'icon-color': '#909090',
     'input-color': '#0B0D21',
